@@ -31,7 +31,7 @@ DB_CONFIG = {
 
 client = OpenAI(api_key=os.environ.get("OPENAI_API_KEY"))
 
-model = "gpt-4o-mini"
+model = "gpt-3.5-turbo"
 
 # VECTOR_DB_DIR = "chromadb"
 # os.makedirs(VECTOR_DB_DIR, exist_ok=True)
