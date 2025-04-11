@@ -5,7 +5,7 @@ set -e  # Exit on any error
 date
 echo "Updating Python application on VM..."
 
-REPO_URL="github.com/stantaov/chatbot-project.git"
+REPO_URL="github.com/Ab00R1/repo_project.git"
 BRANCH="main"
 GITHUB_TOKEN=$TOKEN  # Passed securely via protectedSettings
 HOME_DIR=$(eval echo ~$USER)
