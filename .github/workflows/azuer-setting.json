@@ -1,1 +1,0 @@
-{"commandToExecute": "export GITHUB_TOKEN=${{ secrets.TOKEN }} && sudo -u azureuser bash /home/azureuser/repo_project/update_app.sh"}
